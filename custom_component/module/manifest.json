@@ -1,11 +1,10 @@
 {
   "codeowners": ["nastya33333"],
-  "config_flow": false,
-  "dependencies": [],
+  "config_flow": true,
   "documentation": "https://github.com/nastya33333/Home-assistant-module",
   "domain": "temperature",
-  "iot_class": "cloud_push",
+  "iot_class": "local_polling",
   "name": "temperature",
-  "requirements": [],
+  "requirements": ["gidgethub==4.1.1"],
   "version": "1"
 }
