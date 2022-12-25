@@ -1,5 +1,5 @@
 {
-  "name": "Github Custom",
+  "name": "Module",
   "render_readme": true,
-  "iot_class": "Cloud Polling"
+  "iot_class": "local_polling"
 }
